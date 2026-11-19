@@ -1,0 +1,54 @@
+{
+  "schema": "squad-agent-provenance/v1",
+  "schema_version": 1,
+  "revision": 6,
+  "generated_at": "2026-11-19T16:12:40.158Z",
+  "agents": {
+    "domain-model": {
+      "display_name": "Domain Model",
+      "persistent_name": "Domain Model",
+      "role": "Own Java EE entity models, validation constraints, persistence mappings, and model-focused tests under src/main/java/org/agoncal/application/petstore/model, src/main/java/org/agoncal/application/petstore/constraints, src/main/resources/META-INF, and matching src/test/java tests.",
+      "universe": "cli-cast",
+      "status": "active",
+      "created_at": "2026-11-19T16:12:39.063Z",
+      "updated_at": "2026-11-19T16:12:39.063Z"
+    },
+    "service-layer": {
+      "display_name": "Service Layer",
+      "persistent_name": "Service Layer",
+      "role": "Own CDI/EJB services, ordering, catalog, inventory, shipping, pricing, and service integration tests under src/main/java/org/agoncal/application/petstore/service and related test packages.",
+      "universe": "cli-cast",
+      "status": "active",
+      "created_at": "2026-11-19T16:12:39.307Z",
+      "updated_at": "2026-11-19T16:12:39.307Z"
+    },
+    "rest-api": {
+      "display_name": "REST API",
+      "persistent_name": "REST API",
+      "role": "Own JAX-RS endpoints, REST application wiring, Swagger contract, API behavior, and endpoint integration tests under src/main/java/org/agoncal/application/petstore/rest, src/main/webapp/swagger.json, and matching src/test/java tests.",
+      "universe": "cli-cast",
+      "status": "active",
+      "created_at": "2026-11-19T16:12:39.601Z",
+      "updated_at": "2026-11-19T16:12:39.601Z"
+    },
+    "web-ui": {
+      "display_name": "Web UI",
+      "persistent_name": "Web UI",
+      "role": "Own JSF view beans, shopping and admin pages, templates, CSS, localization, and view integration tests under src/main/java/org/agoncal/application/petstore/view, src/main/webapp, and matching src/test/java tests.",
+      "universe": "cli-cast",
+      "status": "active",
+      "created_at": "2026-11-19T16:12:39.877Z",
+      "updated_at": "2026-11-19T16:12:39.877Z"
+    },
+    "build-and-test": {
+      "display_name": "Build and Test",
+      "persistent_name": "Build and Test",
+      "role": "Own Maven build configuration, WildFly and Arquillian profiles, test execution, packaging, and build/test documentation in pom.xml, src/test/resources, src/main/docker, and README.md.",
+      "universe": "cli-cast",
+      "status": "active",
+      "created_at": "2026-11-19T16:12:40.158Z",
+      "updated_at": "2026-11-19T16:12:40.158Z"
+    }
+  },
+  "transaction_id": "28c1cce0-914e-4d5e-ad52-103bd01e9ee1"
+}

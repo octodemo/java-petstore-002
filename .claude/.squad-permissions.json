@@ -1,0 +1,18 @@
+{
+  "owner": "Squad Claude permissions",
+  "added": [
+    "mcp__squad_state__squad_decide",
+    "mcp__squad_state__squad_state_read",
+    "mcp__squad_state__squad_state_write",
+    "mcp__squad_state__squad_state_append",
+    "mcp__squad_state__squad_state_delete",
+    "mcp__squad_state__squad_state_list",
+    "mcp__squad_state__squad_state_create_if_absent",
+    "mcp__squad_state__squad_state_health",
+    "mcp__squad_state__squad_state_upstreams",
+    "Bash(squad cast:*)",
+    "Bash(squad client sync:*)",
+    "Bash(squad lockout reject:*)",
+    "Bash(squad lockout status:*)"
+  ]
+}
